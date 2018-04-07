@@ -1,0 +1,109 @@
+.main{
+border: 2px solid #000;
+display: flex;
+/* flex-wrap: wrap; */
+ flex-direction:row;
+flex-wrap: wrap;
+
+}
+.left{
+  flex: 1;
+  background-color: #grey;
+border: 2px solid #000;
+margin: 5px;
+padding: 5px;
+
+}
+.right{
+  background-color:#grey;
+  flex: 3;
+border: 2px solid #000;
+margin: 5px
+/* padding-right:5px; */
+
+}
+}
+@media  screen and(max-width:480px){
+  .main{
+
+display: flex;
+ /* flex-wrap: wrap;  */
+flex-direction:column;
+
+}
+.left{
+  flex: 1;
+  background-color: #c45e45;
+border: 2px solid #000;
+margin: 5px;
+padding: 5px;
+
+}
+.right{
+  flex: 3;
+    background-color:#c45e45;
+    border: 2px solid #000;
+margin: 5px;
+padding-right:5px;
+/* padding-right:5px; */
+
+}
+
+
+}
+@media only screen  and (min-width:481px) and (max-width:768px){
+.main{
+border: 2px solid #000;
+display: flex;
+flex-wrap: wrap;
+/* flex-wrap: wrap; */
+flex-direction:column;
+
+
+
+}
+.left{
+  flex: 1;
+  background-color: green;;
+border: 2px solid #000;
+margin: 5px;
+padding-right:5px;
+
+}
+.right{
+  flex: 3;
+    background-color:green;
+    border: 2px solid #000;
+margin: 5px;
+padding-right:5px;
+
+/* padding-right:5px; */
+
+}
+
+}
+@media screen and (min-width:481px) and (max-width:768px){}
+.main{
+border: 2px solid #000;
+display: flex;
+/* flex-wrap: wrap; */
+ flex-direction:row;
+flex-wrap: wrap;
+
+}
+.left{
+  flex: 1;
+  background-color: #grey;
+border: 2px solid #000;
+margin: 5px;
+padding: 5px;
+
+}
+.right{
+  background-color:#grey;
+  flex: 3;
+border: 2px solid #000;
+margin: 5px
+/* padding-right:5px; */
+
+}
