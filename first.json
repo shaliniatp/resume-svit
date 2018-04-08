@@ -1,0 +1,41 @@
+{
+  "basics":{
+"photo":"download.png",
+"name":"k.shalini",
+"phone":"8989897480",
+"email":"shalini9f@gmail.com"
+},
+"skills":[
+{
+  "name":"programming languages:",
+  "value":"c,c++,JAVA"
+
+},
+{
+  "name":"Operating Systems:",
+  "value":"Windows,Linux"
+}
+],
+"education":[
+  {
+    "course":"b.thce(cse)",
+    "college":[
+      "Sri Venkateswara Intitute of Technology",
+      "2015-19",
+      "70%"
+
+
+    ]
+  },
+  {
+    "course":"MPC",
+    "college":[
+      "NARAYANA JUNIOR COLLEGE",
+      "2013-15",
+      "78.6%"
+    ]
+  }
+]
+}
+
+ 
